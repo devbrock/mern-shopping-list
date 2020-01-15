@@ -24,7 +24,7 @@ mongoose
 app.use('/api/items', items);
 
 // Serve static assets if in production
-if (procces.env.NODE_ENV === 'production') {
+if (proccess.env.NODE_ENV === 'production') {
 	//Set a satic folder
 	app.use(express.static('client/build'));
 
